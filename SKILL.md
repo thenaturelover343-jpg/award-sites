@@ -1,22 +1,14 @@
 ---
 name: award-sites
 description: >
-  Use this skill for a public site: a landing page, portfolio, studio, brand,
-  campaign, restaurant, hotel, agency, or shop. Also use it when the user
-  writes in Dutch ("website bouwen", "landingspagina", "premium", "maak het
-  duurder") or says award, Awwwards, cinematic, scroll story, WebGL, or
-  "not a template". Use it to choose type, motion, and free photos, and to
-  judge a marketing page. Do not use it for dashboards or game HUDs.
-  Build one move that changes how the visitor reads the subject. That move
-  appears at three scales (hero, mid-page, end frame or footer). A repeated
-  caption is not a signature. The page must still work when animation is off.
-  Do not ship a full-screen photo with a serif, a price, and cards. Do not
-  ship three crops with captions. Read references/rejects.md and
-  references/build.md before you design. Build the inspection in build.md
-  unless the subject is a studio index or a scene. Do not invent a hero.
-  If the page matches rejects.md, the build has failed.
+  Public marketing sites at a $10k+ bar: one structural move at three scales,
+  directed photography, motion that means something, usability on a phone.
+  Use for landings, portfolios, brand/campaign, restaurant, hotel, agency, shop
+  — including Dutch asks ("website bouwen", "premium", "maak het duurder").
+  Not for dashboards. Read rejects.md and build.md first; if the page matches
+  rejects.md the build has failed.
 metadata:
-  short-description: "One move, three scales. A photo with a price is not done."
+  short-description: "One move, three scales. Rejects first."
   research-through: "2026-10-04"
 user-invocable: false
 ---
@@ -65,7 +57,7 @@ Read only what the chosen direction needs.
 | When | File |
 |---|---|
 | Before anything else | `references/rejects.md` |
-| The page you actually build | `references/build.md` |
+| Object page (inspection, drawing, number) | `references/build.md` |
 | Picking the idea | `references/directions.md` |
 | Type, color, grid, grain, scrim | `references/system.md` |
 | Motion, Lenis, view transitions | `references/motion.md` |
@@ -81,8 +73,10 @@ Read only what the chosen direction needs.
 On a build, always open **rejects, build, techniques, directions, system,
 imagery, interaction, quality**, plus **seo** before you score, plus **motion**
 if anything moves, plus **webgl** only if a canvas survives the decision tree,
-plus **grok-env** when the app runs in this workspace. `build.md` is the page.
-Do not invent a hero. A page that matches `rejects.md` is not done.
+plus **grok-env** when the app runs in this workspace. `build.md` is the page
+for a physical object. Studio, hospitality, counsel, and fashion follow the
+Structure step, not inspection. Do not invent a hero. A page that matches
+`rejects.md` is not done.
 
 ## Loop
 
@@ -103,9 +97,19 @@ Do these in order. Skipping the signature is how templates happen.
    both. Lock an ease and a duration ladder.
 5. **Imagery.** Follow `references/imagery.md` before layout. Real photos or a
    justified scene. One grade across the set. Credit CC-BY in the footer.
-6. **Structure.** Build `references/build.md`. The inspection is the default.
-   Do not invent a hero. Do not add a section just to "hit" a third moment.
-   Add a route only when a project needs its own URL.
+6. **Structure.**
+   - Physical product / object / vehicle / tool → `references/build.md`
+     (inspection, number-as-frame, or registered drawing).
+   - Studio / portfolio with several projects → Archive index (one row, one
+     image). Never tiles.
+   - Hospitality, counsel, fashion, Quiet luxury → follow `directions.md` +
+     `system.md`. Do not force inspection.
+   - Place they insisted you fly through → `webgl.md` only, and only if the
+     subject is a place.
+
+   Do not invent a hero. Do not add a section just to hit a third moment.
+   Add a route only when a project needs its own URL. `build.md` is the
+   default for objects, not for every brief.
 7. **Motion.** Native scroll + CSS timelines, unless choreography needs
    GSAP. One smoother, never two. Reduced motion is the end frame, not a blank.
 8. **Build visible-first.** Words and the poster image render with no JS, no
@@ -169,9 +173,10 @@ Do not average the other scores up. The same list is in `references/rejects.md`.
 
 ## Page (the $10k shape)
 
-`references/build.md` replaces this list for the first screen and the rest of
-a one-page site. Use the list below only to see what you may cut. Do not add
-a beat that `build.md` does not contain.
+When the subject is a physical object, `references/build.md` replaces this
+list for the first screen and the rest of a one-page site. Use the list below
+only to see what you may cut. Do not add a beat that `build.md` does not
+contain. Other briefs do not borrow the inspection just to fill this list.
 
 1. Nav — mark, two to five links, one action. Keyboardable. Skip link first.
 2. Hero — name, one sentence, the signature, one action. Fully visible on load.

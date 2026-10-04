@@ -108,3 +108,11 @@ Write two lines and keep them:
 
 If those two lines describe the same page, you picked nothing. Then build
 `build.md`. Do not sketch a third layout.
+
+## Pass vs fail (first screen)
+
+- **Pass.** One sticky photograph, copy in a side column, scroll moves the
+  crop. Three moments are the start, the station, and the end frame of that
+  same window.
+- **Fail.** Full-bleed photo, a serif on top of it, three price chips. That
+  is a brochure. Creativity stays at 4 or below.

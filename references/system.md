@@ -101,11 +101,22 @@ One ground, one ink, one hue. Write them as `oklch` so lightness is honest.
   the direction is a type specimen. A slight temperature (the `80` hue above
   is a warm gray) makes it feel printed.
 
-One scheme is the default. Quiet luxury and Editorial object pick paper or
-charcoal from the photographs, not both. Archive is near-white or near-black.
-Material field follows the material. Ship a second scheme only when the brief
-asks, or when the photos genuinely need it. Then use the media query, not a
-toggle and not a script that runs after paint (that flashes).
+One scheme is the default. No theme toggle. A second scheme only via
+`prefers-color-scheme`, when the brief asks or the photographs need it.
+Flip ink, ground, muted, and line in that one media-query block.
+
+| Direction | Default scheme |
+|---|---|
+| Quiet luxury | Paper (warm light) or charcoal — pick from the photographs, not both |
+| Editorial object | Charcoal or paper, one temperature with the grade |
+| Archive | Near-white or near-black, no mid-grey |
+| Material field | Follow the material (dark metal / light paper) |
+| Type instrument | Near-white or near-black; accent only as hairline or field |
+| Launch sequence | Match the product photography temperature |
+| Scroll film / Object cinema | Dark unless the scene is daylight |
+
+Do not ship both schemes to look thorough. A script that sets the theme after
+paint flashes. Use the media query, or ship one scheme.
 
 ```css
 @media (prefers-color-scheme: light) {

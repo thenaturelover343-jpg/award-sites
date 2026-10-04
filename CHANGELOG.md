@@ -1,5 +1,17 @@
 # Changelog
 
+2026-10-04 — structure routing. Pins unchanged.
+
+- Structure step routes objects to `build.md`, a studio index to Archive,
+  hospitality / counsel / fashion / Quiet luxury to their direction, and a
+  flown-through place to `webgl.md`. Inspection is not the default for every
+  brief.
+- Frontmatter description shortened. Short description: rejects first.
+- `system.md`: one default scheme per direction. Still no theme toggle.
+  Second scheme only via `prefers-color-scheme`, flipping ink, ground, muted,
+  and line in the same block.
+- `rejects.md`: pass vs fail for the first screen.
+
 2026-10-04 — skill tightened. Pins unchanged (registry still at gsap 3.15.0,
 @gsap/react 2.1.2, lenis 1.3.26, three 0.186.1, fiber 9.8.1, drei 10.7.9).
 
