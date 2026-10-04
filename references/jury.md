@@ -75,36 +75,67 @@ The builder ignores it and stays on the shell.
   mark each item from the screen. Do not write a new change that undoes a
   done item. Do not DELETE because the builder obeyed the previous jury or
   obeyed `build.md`.
+- **A done list lifts the lens.** If every item on the previous list is on
+  these frames, the lens that list named is at least one point higher than
+  last round, unless a row in `rejects.md` is on the screen. The same four
+  numbers on a done list are **VOID**. Doing the list is how the score
+  moves. It is not "compliance."
+- **Score the reading, not a pixel.** Design is whether a stranger can read
+  the frame: the object is nameable, the type is readable, the line is one
+  stroke. After any outline item has been marked done, another nick, sliver,
+  or gap cannot be the list and cannot hold a lens under 7. One outline item
+  in the life of the page is enough. Type a stranger cannot read is not an
+  outline item. It is one change: make those words readable without undoing
+  a done placement.
+- **7 is a floor, not a mood.** If the screenshot meets the 7-line in
+  `references/quality.md` for a lens, that lens is at least 7. A 6 must name
+  the failed clause in one sentence. Taste, "not WebGL", a ground around a
+  drawing, or a closed nick is not a failed clause. 8 and above still need a
+  named 2023–2026 Site of the Year or Month that shares the move. No named
+  site does not cap a 7.
+- **Three scored rounds, then stop tracing.** If the same lens has been the
+  lowest for three scored rounds, the previous list is done, the move is
+  visible on 1440 and on 390, and no `rejects.md` row is on the screen:
+  **PASS**. Do not open a new contour. A missing move is still DELETE. A
+  rejects row is still not a pass. Do not print 6 again for a nick the last
+  round already closed.
 
 ## Verdict
 
 One word, then the numbers, then nothing soft. **VOID** has no numbers.
 
 **VOID** — the frames are not one page, or this verdict would reverse a
-done change or `build.md`. Name the file or the reversal in one sentence.
+done change or `build.md`, or the same four numbers are being repeated for
+a list that is already on the screen. Name the file or the reversal in one
+sentence.
 
 **DELETE** — on the 1440 shot there is no move, or the page matches
 `rejects.md`. Not a bad crop of a move that is there. Not a phone end
 frame. Name the move that is missing in one sentence.
 
-**REVISE** — the move is on the 1440 shot, and at least one lens is under 7.
-Name the lowest lens. At most five changes, in the order that lifts that
-lens. Each change must still be true on the next round. No praise. No new
-shell unless this one cannot reach a 7 even with a correct crop.
+**REVISE** — the move is on the 1440 shot, and at least one lens is under 7
+because a 7-line clause failed. Name the lowest lens and the failed clause.
+At most five changes, in the order that lifts that lens. If an outline item
+was already marked done, this list cannot be another outline item. Each
+change must still be true on the next round. No praise. No new shell unless
+this one cannot meet the 7-line even with a correct crop.
 
 **PASS** — the conditions above, the four numbers, the weighted total, and
 the one sentence a stranger would use to point at the move.
 
 ## What the builder does with it
 
-- **VOID:** reshoot this page. Same shell. New jury. Do not restyle.
+- **VOID:** reshoot this page only if the frames were mixed. If the void is
+  a repeated score on a done list, do not restyle. New jury, same frames.
 - **DELETE:** a different shell from the direction, only when the 1440 shot
   has no move. Do not restyle a brochure. A bad mask, a white panel, or a
   phone end frame is not this word.
 - **REVISE:** do that list. Then a new jury. If the same lens is still the
   lowest, the next list may only name what is still wrong on the screen.
-  It may not repeat a change that was marked done, and it may not throw
-  the page out for still being under 7. Spacing is not a new shell.
+  It may not repeat a change that was marked done, it may not add a second
+  outline item, and it may not throw the page out for still being under 7.
+  The third scored round with the list done and the move visible is a PASS,
+  not another trace. Spacing is not a new shell.
 - **PASS:** deliver. Quote the jury's four numbers. Do not write higher ones.
 
 The user hears the jury. The builder does not add "but I would give it an 8."

@@ -20,14 +20,29 @@ Weighted = `0.4 D + 0.3 U + 0.2 C + 0.1 Content`. The builder does not compute
 this in order to pass. If the signature is not on the screenshot, there is no
 number. Adding WebGL does not lift a 5 in usability.
 
+## What 7 means
+
+7 is a floor. If the screenshot meets the line, the lens is at least 7.
+A 6 must name the failed clause. These are not a failed clause: a finished
+list that is visible, a nick already marked done, a ground around a drawing,
+the phone showing the end frame, the absence of WebGL, or no named award
+site (that withholds an 8, not a 7).
+
+| Lens | 7 means | A 6 must be this, and nothing softer |
+|---|---|---|
+| Design | One system. Type a stranger can read. The object is nameable. The line does not contradict the object. | Type they cannot read, two systems, or the object is not the object. Not a closed nick. |
+| Usability | The 390 frame shows the end of the move, the action is in the first screen, no overflow, reduced motion is that end frame. | The action is missing, the page scrolls sideways, or a pin traps the phone. |
+| Creativity | Hero, mid, and end are three states of one move a stranger can point at with the words covered. | The three frames are one caption, or the move is not on the 1440 shot. |
+| Content | The facts on the screen are specific. No banned phrase. No invented phone, email, VAT, or rating. | Lorem, a fake logo, or a claim the page does not show. |
+
 ## Does not raise a score
 
 These do not raise a score. If you treat them as one, the verdict is void.
 
-- A finished fix list. Doing what the last note asked is compliance, not a better site.
+- A finished fix list that is **not** on the screenshot. A list that is on the screenshot raises the lens it was written for by at least one point. The same four numbers after a done list are void.
 - A repeated caption, hairline, or label. A signature is a move you could not get from `object-fit` plus absolute text. If a one-day Tailwind brochure already has it, creativity is at most 4 and design at most 6.
-- A drawn mark, three image files, and a button in the first viewport. That is the pre-ship list, not an Honorable Mention.
-- Naming a signature in a sentence without a real Awwwards site (Site of the Year or Site of the Month, 2023–2026) that shares that specific move. No named site, no score of 8.
+- A static sticker: a drawn mark that does not change from hero to mid to end, three image files, and a button. A drawing, an inspection, or a number that changes what the frame shows is the move. Do not cap that at 6 for being a drawing.
+- Naming a signature in a sentence without a real Awwwards site (Site of the Year or Site of the Month, 2023–2026) that shares that specific move. No named site, no score of 8. A 7 does not need the name.
 - Three moments that are the same price chip. That fails `rejects.md` even if you wrote the sentence.
 
 ## Signature check

@@ -1,5 +1,13 @@
 # Changelog
 
+2026-10-05 — a done list lifts the score. The loop can pass.
+
+- `quality.md` told the next jury that finishing the list does not raise a score, and that a drawing in the first viewport is not an Honorable Mention. The builder was only allowed to do that list. Design and creativity stayed at 6 for ten rounds of contour nits. That pair is deleted.
+- 7 is a floor with a clause. A 6 must name the failed clause. A closed nick, a ground around a drawing, the phone end frame, or "not WebGL" is not a clause.
+- A done list raises the lens it was written for by at least one point. The same four numbers on a done list are VOID. The builder does not restyle. A new jury sees the same frames.
+- One outline item per page. After it is marked done, another nick cannot hold a lens under 7.
+- The third scored round with the list done, the move visible on 1440 and 390, and no rejects row is PASS. A missing move is still DELETE.
+
 2026-10-04 — a jury cannot reverse the previous one.
 
 - **VOID** when the frames are not one page, or the verdict would undo a done change, or it rejects the phone for not pinning. The builder reshoots the same shell.
