@@ -1,11 +1,6 @@
 # award-sites
 
-Agent skill for building public websites at a $10k+ studio bar: one
-art-directed idea, directed photography, motion that means something, and
-usability that survives a phone.
-
-It is not a template pack. The agent reads `SKILL.md`, then only the reference
-files the chosen direction needs.
+Build the inspection in `references/build.md`. The words sit beside the photograph, and scroll moves the photograph inside a fixed window. Do not invent a hero. A full-screen photo with type on it is the page this skill already failed.
 
 ## Install (Grok app builder)
 
@@ -33,7 +28,8 @@ Openverse, commercial licenses, no API key. CC-BY rows must be credited.
 ```text
 award-sites/
 ├── SKILL.md
-├── references/     # directions, type, motion, webgl, imagery, QA
+├── CHANGELOG.md
+├── references/     # rejects, build, seo, scroll, directions, motion, QA
 ├── scripts/        # fetch-photos.mjs
 └── assets/grain.svg
 ```

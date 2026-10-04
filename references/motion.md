@@ -17,9 +17,23 @@ Lock these as tokens next to the colors:
 One family for the site. Expo-out for things that arrive. A symmetric in-out
 only for a cover that leaves and returns (page transition).
 
-## Visible-first reveals
+## Platform first
+
+Read `scroll.md` before you write `animation-timeline`. The `animation`
+shorthand resets the timeline. A duration of `0s` dies in Firefox. Write
+`1ms`, then the timeline on the next line. Animate `transform`, not
+`object-position`.
+
+## Visible first
 
 Hero: no entrance required. It may settle 12px, but it starts readable.
+
+`opacity: 0` does not belong in the base stylesheet. Not on a section, not on
+a class named `reveal` or `in-view`, not "until the observer adds a class".
+If you search the file and find it outside a `prefers-reduced-motion:
+no-preference` block that also starts the animation in the same rule, delete
+it. The reduced-motion still is the end frame of the signature, already
+visible. A page that stays blank because the tween never ran has failed.
 
 Below the fold, prefer CSS scroll-driven animations. They run off the main
 thread. Do **not** set a resting `opacity: 0`. Gate the animation:
@@ -28,7 +42,7 @@ thread. Do **not** set a resting `opacity: 0`. Gate the animation:
 @media (prefers-reduced-motion: no-preference) {
   @supports (animation-timeline: view()) {
     .rise {
-      animation: rise linear both;
+      animation: rise 1ms linear both;
       animation-timeline: view();
       animation-range: entry 0% entry 35%;
     }

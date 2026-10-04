@@ -1,41 +1,43 @@
 ---
 name: award-sites
 description: >
-  Build or redesign public websites at a $10k+ studio bar (Awwwards, FWA,
-  CSS Design Awards craft): one art-directed idea, real photography or a
-  justified 3D scene, directed motion, and usability that holds on a phone.
-  Use whenever the user wants a website, landing page, portfolio, studio site,
-  brand or campaign site, product launch, restaurant, hotel, agency, or
-  e-commerce storefront — including Dutch asks ("website bouwen",
-  "landingspagina", "premium site", "maak het duurder") — and when they say
-  award-winning, Awwwards, top of the art, expensive, cinematic, scroll story,
-  WebGL, or "not a template". Also use to choose type, color, motion, free
-  photos, image grading, or to audit a marketing page against that bar. Read
-  this before falling back to generic app-UI styling for any public marketing
-  surface.
+  Use this skill for a public site: a landing page, portfolio, studio, brand,
+  campaign, restaurant, hotel, agency, or shop. Also use it when the user
+  writes in Dutch ("website bouwen", "landingspagina", "premium", "maak het
+  duurder") or says award, Awwwards, cinematic, scroll story, WebGL, or
+  "not a template". Use it to choose type, motion, and free photos, and to
+  judge a marketing page. Do not use it for dashboards or game HUDs.
+  Build one move that changes how the visitor reads the subject. That move
+  appears at three scales (hero, mid-page, end frame or footer). A repeated
+  caption is not a signature. The page must still work when animation is off.
+  Do not ship a full-screen photo with a serif, a price, and cards. Do not
+  ship three crops with captions. Read references/rejects.md and
+  references/build.md before you design. Build the inspection in build.md
+  unless the subject is a studio index or a scene. Do not invent a hero.
+  If the page matches rejects.md, the build has failed.
 metadata:
-  short-description: "Award-level marketing sites: art direction, motion, free photos, $10k bar"
+  short-description: "One move, three scales. A photo with a price is not done."
   research-through: "2026-10-04"
 user-invocable: false
 ---
 
 # Award sites
 
-Build a public site a studio could invoice above $10k for. That bar is not
-more libraries. It is one idea, drawn through type, image, and motion, that
-still works with the animation turned off.
+Build one move. That move changes how the visitor reads the subject. It shows at three scales. The page still works when you turn the animation off.
 
-Juries (Awwwards, confirmed on their evaluation page) score **Design 40 /
-Usability 30 / Creativity 20 / Content 10**. Honorable Mention starts at 6.5.
-Usability is where beautiful sites lose. A 2023–2026 survey of award winners
-keeps finding the same traits: one brand system, a story told by scroll, and
-micro-interactions — not a pile of effects. Site of the Year is often WebGL
-(Lando Norris, 2025) and just as often not (Pangram Pangram is type; Don't
-Board Me is graphic storytelling). Do not add a 3D scene to hit a quota.
+Choose one:
 
-Research cutoff: **2026-10-04**. Stack pins and sources live in
-`references/quality.md`. If a package major has moved, trust the registry, not
-a stale pin.
+- Scroll across the object, from one end to the other.
+- Clip the photograph to a drawing of the object.
+- Let one number frame the photograph.
+
+Do not ship a full-screen photo with a serif headline, a price, and a button. Do not ship three crops with captions. Do not call a thin line a signature because you repeated it.
+
+Open `references/rejects.md` first. If the page matches that file, you failed. The rules below do not save a page that matches it.
+
+Juries score design 40, usability 30, creativity 20, and content 10. Honorable Mention starts at 6.5. Sites lose points on usability more often than on looks. Do not add a 3D scene to look expensive. Some awarded sites use WebGL. Some do not.
+
+Research cutoff: 2026-10-04. Package pins live in `references/quality.md`. If a package major has moved, trust the registry.
 
 ## Precedence
 
@@ -62,52 +64,119 @@ Read only what the chosen direction needs.
 
 | When | File |
 |---|---|
+| Before anything else | `references/rejects.md` |
+| The page you actually build | `references/build.md` |
 | Picking the idea | `references/directions.md` |
-| Type, color, grid, grain | `references/system.md` |
+| Type, color, grid, grain, scrim | `references/system.md` |
 | Motion, Lenis, view transitions | `references/motion.md` |
+| What shipped in browsers by 2026-10-04 | `references/techniques.md` |
+| Scroll-driven CSS, the traps | `references/scroll.md` |
 | A canvas is actually justified | `references/webgl.md` |
 | Photos, licensing, grading, editing | `references/imagery.md` |
 | Nav, loader, forms, copy, footer | `references/interaction.md` |
+| Headings, JSON-LD, meta | `references/seo.md` |
 | Jury score, a11y, performance, pins | `references/quality.md` |
 | This TanStack sandbox | `references/grok-env.md` |
 
-On a build, always open **directions, system, imagery, interaction, quality**,
-plus **motion** if anything moves, plus **webgl** only if a canvas survives
-the decision tree, plus **grok-env** when the app runs in this workspace.
+On a build, always open **rejects, build, techniques, directions, system,
+imagery, interaction, quality**, plus **seo** before you score, plus **motion**
+if anything moves, plus **webgl** only if a canvas survives the decision tree,
+plus **grok-env** when the app runs in this workspace. `build.md` is the page.
+Do not invent a hero. A page that matches `rejects.md` is not done.
 
 ## Loop
 
-Do these in order. Skipping "signature" is how templates happen.
+Do these in order. Skipping the signature is how templates happen.
 
 1. **Brief.** Write six lines before code: who it is for, the object or place,
    the one action, the line they should remember, what is true (materials,
    city, prices), what you had to invent. If the user was vague, invent one
    coherent brand and say so in the summary — do not stall. No lorem later.
-2. **Direction.** One primary from `references/directions.md`, one optional
-   secondary. Write the sentence: "The visitor ___ and understands ___."
-3. **System.** Tokens first (`references/system.md`). Two families, one ink,
-   one ground, at most one hue. Lock an ease and a duration ladder.
-4. **Imagery.** Follow `references/imagery.md` before layout. Real photos or a
+2. **Signature.** One sentence, then three moments. See below. If the three
+   moments are the same caption, you do not have a signature. Write the two
+   lines from `references/rejects.md` (brochure version, move instead). If
+   they describe the same page, pick again.
+3. **Direction.** One primary from `references/directions.md`. Scroll film and
+   Object cinema only when the brief's subject is a place or a thing you turn.
+4. **System.** Tokens first (`references/system.md`). Two families, one ink,
+   one ground, at most one hue. One scheme, unless the direction truly needs
+   both. Lock an ease and a duration ladder.
+5. **Imagery.** Follow `references/imagery.md` before layout. Real photos or a
    justified scene. One grade across the set. Credit CC-BY in the footer.
-5. **Structure.** Default is one page, eight beats (below). Add routes only
-   when a case study needs its own URL. Then use view transitions, not a hard
-   cut.
-6. **Motion.** Native scroll + CSS timelines, unless choreography needs
-   GSAP. One smoother, never two. Reduced motion is a designed still, not a
-   blank.
-7. **Build visible-first.** Words and the poster image render with no JS, no
-   font CDN, and no canvas. Enhance after.
-8. **Score.** `references/quality.md` before you call it done. Fix any line
-   that would make a juror mark usability down.
+6. **Structure.** Build `references/build.md`. The inspection is the default.
+   Do not invent a hero. Do not add a section just to "hit" a third moment.
+   Add a route only when a project needs its own URL.
+7. **Motion.** Native scroll + CSS timelines, unless choreography needs
+   GSAP. One smoother, never two. Reduced motion is the end frame, not a blank.
+8. **Build visible-first.** Words and the poster image render with no JS, no
+   font CDN, and no canvas. No `opacity: 0` in the base stylesheet. Enhance
+   after.
+9. **Score.** `references/quality.md`, then `references/seo.md`. Fix any line
+   that would make a juror mark usability down. Under 7, you are not done.
+
+## Signature
+
+Write this and keep it:
+
+> Signature: the visitor …
+> Hero: …
+> Mid: …
+> End: …
+
+The three moments are the same move at three sizes. Hero is the full move.
+Mid is where that move decides a fact (a station, a case, a line), not a new
+effect. End is the resting frame, the mark reduced, or the shared-element
+handoff. A hairline, a label, or a price chip in all three places is a caption.
+Delete it.
+
+Adding a section so you can count to three fails `build.md`. For the
+inspection, the three moments are the start of the window, the station the
+window is on, and the end frame. Not a second photograph in the footer.
+
+Strong types, one per site:
+
+| Type | The visitor |
+|---|---|
+| Crop or temperature shift | watches one photograph change as they move |
+| Inspection window | reads the object from one end to the other |
+| Registered drawing | sees the photo only inside the silhouette |
+| Number as frame | sees the photo only inside one figure |
+| Index displacement | moves one row and the image answers |
+| One kinetic line | scrubs a single line; body text stays still |
+| Material wash | sees one material in the mark, the transition, and the still favicon |
+| Scale sequence | opens one object across one pin |
+| Camera path | moves through one place |
+
+If you cannot point at the move with the words covered, creativity stays at 4.
+
+## Anti-template firewall
+
+Hit one row and the build has failed. Design is at most 5, creativity at most 4.
+Do not average the other scores up. The same list is in `references/rejects.md`.
+
+1. Dark hero, gradient blob, and fade-up sections.
+2. Inter, Roboto, Poppins, Space Grotesk, or Playfair as the default face.
+3. Magnetic buttons, or a custom cursor that is not the move.
+4. Six equal feature cards (or three price cards on one photograph).
+5. Copy that says elevate, seamless, next-gen, or unlock.
+6. WebGL when the subject is not an object or a place.
+7. `opacity: 0` plus an IntersectionObserver.
+8. A custom cursor on touch.
+9. Lenis and ScrollSmoother together.
+10. Stock faces presented as the team or the founder.
+11. Lorem, or logos of clients you invented.
+12. Information that exists only on hover.
 
 ## Page (the $10k shape)
 
-One screen, one job. Desktop composition is not "stacked" onto 390px — re-break
-the grid.
+`references/build.md` replaces this list for the first screen and the rest of
+a one-page site. Use the list below only to see what you may cut. Do not add
+a beat that `build.md` does not contain.
 
-1. Nav — mark, two to five links, one action. Keyboardable.
+1. Nav — mark, two to five links, one action. Keyboardable. Skip link first.
 2. Hero — name, one sentence, the signature, one action. Fully visible on load.
-3. Proof — the work, the room, the object, or the numbers that are real.
+   One `h1`.
+3. Proof — the object or the work, shown by the one move. Not a row of cards.
 4. Paced chapter — the scroll story **or** three case studies, not both at full volume.
 5. Material or method — how it is made. Specific nouns.
 6. Offer — what they buy, the city, the constraint.
@@ -121,12 +190,13 @@ Every beat earns its place. Cut a section before you add an effect.
 
 Break one and the site is a template with expensive libraries.
 
-1. **Visible without JS.** No `opacity: 0` parked in CSS waiting for an
-   observer. Entrance states are applied in the same frame the tween starts,
-   or by a CSS timeline that reduced-motion disables. Hero text is painted
-   immediately.
-2. **One signature, used at least three times** (hero, a mid-page moment, the
-   footer or the transition). Not ten effects once.
+1. **Visible without JS.** No `opacity: 0` in the base stylesheet, and no
+   observer that reveals it. Entrance states are applied in the same frame the
+   tween starts, or by a CSS timeline that reduced-motion disables. Hero text
+   is painted immediately. Search the file for `opacity: 0` before you finish.
+2. **One structural move, three scales, not a repeated caption.** A hairline,
+   a label, or a price chip used three times is not a signature. The move has
+   to change how the object is read. See `references/rejects.md`.
 3. **One ease family. One duration ladder.** Hover 160–240ms. Panels ~600ms.
    Reveals ~800–1000ms. Hero intro ≤ 1400ms.
 4. **Type is the layout.** Two families. Display tracking around −0.03em to
@@ -134,19 +204,23 @@ Break one and the site is a template with expensive libraries.
    ~1.45. Never the Inter/Poppins/Space Grotesk reflex.
 5. **Palette is a material.** Near-black or near-white ground, one ink, one
    hue used as a field or a hairline — not a rainbow of Tailwind defaults.
+   One scheme by default. Both schemes only via `prefers-color-scheme`, with
+   the ink flipped in the same rule (`references/system.md`).
 6. **Photos are directed.** Same grade, two crops (wide and portrait), real
    alt text. No gray boxes, no picsum, no mixed stock that looks like five
    cameras. Faces of strangers are not "the founder".
 7. **Canvas is opt-in** (`references/webgl.md`). Poster image is the LCP.
-   DPR capped. Loop pauses off-screen. `aria-hidden` on the canvas.
+   DPR capped. Loop pauses off-screen. `aria-hidden` on the canvas. Never for
+   a service page that is not a place or a thing you turn.
 8. **390px is designed.** No horizontal overflow. No hover-only information.
    Targets ≥ 44px. Nav becomes a panel, not a crushed bar.
-9. **Reduced motion, focus, contrast.** `prefers-reduced-motion` keeps a still
-   composition. Focus ring ≥ 2px and 3:1. Body text ≥ 4.5:1. Large display
-   type may sit at 3:1.
-10. **Speed on a mid phone.** LCP ≤ 2.5s, INP ≤ 200ms, CLS ≤ 0.1, and the
-    first view stays light (quality.md budgets). Loader ≤ 1.5s, skippable,
-    once per session, honest — or no loader.
+9. **Reduced motion, focus, contrast.** `prefers-reduced-motion` shows the
+   signature's end frame, fully composed. Focus ring ≥ 2px and 3:1. Body text
+   ≥ 4.5:1. Large display type may sit at 3:1. Skip link is the first control.
+10. **Speed on a mid phone.** LCP ≤ 2.5s, INP ≤ 200ms, CLS ≤ 0.1. LCP is text
+    or the poster, never the canvas. Preload one woff2. Hero image ≤ 2500px
+    wide, with a reserved box. Loader ≤ 1.5s, skippable, once per session,
+    honest — or no loader.
 11. **Copy sounds like a person.** Banned: "welcome to", "unlock", "elevate",
     "seamless", "next-gen", "passionate about", "your partner in", "solutions".
     Headlines are concrete. Numbers and place names beat adjectives.
@@ -160,13 +234,18 @@ Break one and the site is a template with expensive libraries.
     stalls, move that animation to ScrollTrigger.
 15. **Credits and licenses.** CC-BY and "by-sa" go in the footer. CC0 credit is
     optional. Never hotlink. Never ship a photo you cannot name a license for.
+16. **One h1, real landmarks, true structured data.** `header`, `main`, `nav`,
+    `footer`. Sections earn an `h2`. JSON-LD only for facts the page already
+    shows. Do not invent a telephone. Details: `references/seo.md`.
 
 ## Direction in one line
 
-Pick from `references/directions.md`. Default when unsure and the subject is a
-business: **Quiet luxury** or **Editorial object**. Default when they asked
-for a studio portfolio: **Archive**. Full-viewport WebGL only for **Scroll film**
-or **Object cinema**, and only when the subject is a place or a thing you turn.
+Pick from `references/directions.md` only after `references/rejects.md`. Default
+when unsure and the subject is a business: **Quiet luxury**. Default for a
+physical product: **Editorial object**, which means inspection, a registered
+drawing, or a number as the frame — not three tiles. Default for a studio
+portfolio: **Archive**. Full-viewport WebGL only for **Scroll film** or
+**Object cinema**, and only when the subject is a place or a thing you turn.
 
 ## Imagery in one line
 
@@ -180,7 +259,10 @@ only downloads. Details, Unsplash/Pexels, and the generate/edit tools:
 
 ## Done
 
-You are done when `references/quality.md` passes, the first viewport is obvious
-in a real browser at desktop and 390px, the console is clean, and you can point
-at the signature in one sentence. A generic dark hero with a gradient, a
-sans-serif, and fade-up sections is not done — restyle it before you stop.
+Screenshot the page at 1440 and at 390. The words and the photograph sit in
+different rectangles. The phone shows the photograph, the number, and the
+action without scrolling. Then search your file for `opacity: 0`, the banned
+patterns in `references/build.md`, and the firewall list above. Then open
+`references/rejects.md`. A match means you start again. A score under 7 in
+`references/quality.md` means you are not done. You do not grade your own fix
+list.

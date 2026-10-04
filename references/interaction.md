@@ -32,9 +32,11 @@ Every inquire block has a visible label, a name, a way to reply (email), and
 a submit that does something real.
 
 - Client-side: required fields, an email shape check, errors under the field
-  in words, `aria-invalid`.
+  in words, `aria-invalid`, and `role="alert"` on the message (or one
+  `aria-live="polite"` region that lists them). Do not use only a red border.
 - Success: replace the form with a specific sentence ("We have it. A reply
-  goes to …") not an alert() and not "Submitted!!!".
+  goes to …") not an alert() and not "Submitted!!!". If nothing was sent, say
+  so. Do not invent a confirmation email.
 - Without a backend, `mailto:` is honest only if you say it opens their mail
   app. A better default in a demo: store nothing, show success, and do not
   pretend a message was sent to a studio. If the workspace has no database

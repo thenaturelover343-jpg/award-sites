@@ -14,7 +14,8 @@ hold.
 - `og` for the share card and favicon. Do not put `og:*` or `twitter:card` in
   the root route. Dispatch the brand pass the way `og` says; do not wait on it.
   The card should look like the site's first frame: the type, the ground, the
-  object. Not a generic purple card.
+  object. Not a generic purple card. JSON-LD is not an Open Graph tag: put it
+  in the page, only for facts already visible (`references/seo.md`).
 - Auth and database stay **off** unless the user asked for accounts or saved
   server data. A contact form does not need them.
 - Verify in a real browser at desktop and ~390px, on dev and on the production

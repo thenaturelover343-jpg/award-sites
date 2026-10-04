@@ -40,7 +40,17 @@ shape (confirm the path against `node_modules` if the import fails):
 
 Always name a metric-compatible fallback so the swap does not jump (CLS).
 `font-display: swap` on body, `optional` on a heavy display if the hero can
-stand in the fallback for slow networks. Preload one woff2, not five weights.
+stand in the fallback for slow networks. Import the latin (or the subset you
+actually use), not the whole family. Preload **one** woff2 for the face that
+paints the first screen, not five weights.
+
+```html
+<link rel="preload" href="/fonts/display-latin.woff2" as="font" type="font/woff2" crossorigin />
+```
+
+If the file comes from `node_modules` via the bundler, preload the URL the
+build emits, or skip the tag rather than preload a path that 404s. A failed
+preload is worse than none.
 
 **Scale**
 
@@ -91,6 +101,48 @@ One ground, one ink, one hue. Write them as `oklch` so lightness is honest.
   the direction is a type specimen. A slight temperature (the `80` hue above
   is a warm gray) makes it feel printed.
 
+One scheme is the default. Quiet luxury and Editorial object pick paper or
+charcoal from the photographs, not both. Archive is near-white or near-black.
+Material field follows the material. Ship a second scheme only when the brief
+asks, or when the photos genuinely need it. Then use the media query, not a
+toggle and not a script that runs after paint (that flashes).
+
+```css
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: oklch(0.96 0.01 80);
+    --color-fg: oklch(0.2 0.02 80);
+    --color-muted: oklch(0.42 0.02 80);
+    --color-line: oklch(0.82 0.01 80);
+  }
+}
+```
+
+Flip every token that carries ink or ground in that one block. A light page
+with dark-theme muted text fails contrast. Do not leave the accent hue
+unchanged if it only worked on the dark ground.
+
+## Scrim
+
+Type sits off the photograph when `build.md` says so. When type must cross a
+photo, the scrim is a continuation of the ground, not a black plate.
+
+```css
+.scrim {
+  background: linear-gradient(
+    to top,
+    var(--color-bg) 0%,
+    color-mix(in oklch, var(--color-bg) 55%, transparent) 42%,
+    transparent 70%
+  );
+}
+```
+
+The gradient uses the page ground so the grade stays one temperature. Cap the
+solid part. A full-bleed `rgba(0,0,0,.7)` under every headline is the template.
+If the scrim is the only way the sentence is readable, move the sentence off
+the picture instead.
+
 ## Grid and space
 
 A 12-column grid is the scaffold, not the look. Award pages are usually
@@ -100,10 +152,8 @@ a margin so large the content feels placed.
 - Base space: 4. Section padding `clamp(4rem, 12vh, 10rem)`.
 - Page margin: `clamp(1.25rem, 4vw, 4rem)`.
 - Align to the grid. One element may break it, on purpose, once.
-- Hairline rules (`1px` in `color-line`) do more than cards with shadows.
-  Shadows are rare on these sites. A card grid of equal boxes is a dashboard,
-  not a story — don't reach for it unless the content is genuinely a catalog
-  of peers.
+- Hairlines are structure, not a signature. A 1px rule with a caption does
+  not make a drawing. Shadows are rare. Equal cards are a dashboard.
 - Radius: 0 for editorial and archive. A small radius (4–8px) only if the
   brand is soft product. Not 24px on everything.
 
@@ -118,7 +168,7 @@ body::before {
   pointer-events: none;
   position: fixed;
   inset: 0;
-  z-index: 40;
+  z-index: 1;
   opacity: 0.18;
   mix-blend-mode: overlay;
   background-image: url("/grain.svg");
@@ -129,7 +179,7 @@ body::before {
 Copy `assets/grain.svg` to `public/grain.svg`. If contrast fails, lower
 opacity before you remove the type color. Disable the overlay under
 `prefers-reduced-motion` only if the SVG filter is actually expensive; a
-static tile is fine to keep.
+static tile is fine to keep. Menus and dialogs sit above the overlay.
 
 ## Material field (CSS, no canvas)
 

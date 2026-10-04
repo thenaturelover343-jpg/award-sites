@@ -1,8 +1,10 @@
 # WebGL
 
 Open this file only after the direction is Scroll film, Object cinema, or a
-Material field that CSS could not make. A canvas you cannot justify will cost
-the usability score: that weight is 30%.
+Material field that CSS could not make. Both of those directions are closed
+unless the subject is a place you move through or a thing you turn. A service,
+a menu, a clinic, or "make it expensive" is not a reason. A canvas you cannot
+justify will cost the usability score: that weight is 30%.
 
 ## Decision
 

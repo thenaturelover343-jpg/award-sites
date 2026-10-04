@@ -35,8 +35,11 @@ shots looks cheaper than a $10k page with four crops of one session.
    leave three warm photos and one blue flash photo because the search was
    good enough.
 5. **Place.** Hero poster is compressed and dimensioned (the box has a
-   reserved aspect ratio so CLS stays ~0). Below-fold images lazy-load.
-   Give `srcset` if you have two widths; do not invent srcset URLs.
+   reserved aspect ratio so CLS stays ~0). Long edge about 2500px, not the
+   camera original if that file is many megabytes. Below-fold images are
+   `loading="lazy"` and `decoding="async"`. The hero is eager. Give `srcset`
+   only when you have the files; do not invent URLs. The LCP node is this
+   poster or the headline, never a canvas.
 6. **Credit.** If `credit_required` is true (license starts with `by`), the
    footer lists creator, license, and source link. CC0: credit optional,
    still keep `credits.json` in the repo. Never hotlink the source URL as
