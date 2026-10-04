@@ -6,10 +6,11 @@ description: >
   Use for landings, portfolios, brand/campaign, restaurant, hotel, agency, shop
   — including Dutch asks ("website bouwen", "premium", "maak het duurder").
   Not for dashboards. Read rejects.md and directions.md first. Open build.md
-  only for a physical object. If the page matches rejects.md the build has
-  failed.
+  only for a physical object. A different agent juries the finished site
+  (`references/jury.md`). The builder does not grade itself. If the page
+  matches rejects.md the build has failed.
 metadata:
-  short-description: "One move, three scales. Rejects first."
+  short-description: "One move, three scales. A jury outside the builder."
   research-through: "2026-10-04"
 user-invocable: false
 ---
@@ -73,11 +74,12 @@ Read only what the chosen direction needs.
 | Nav, loader, forms, copy, footer | `references/interaction.md` |
 | Headings, JSON-LD, meta | `references/seo.md` |
 | Jury score, a11y, performance, pins | `references/quality.md` |
+| The agent that scores, not the builder | `references/jury.md` |
 | This TanStack sandbox | `references/grok-env.md` |
 
 On a build, always open **rejects, directions, system, imagery, interaction,
 quality**, plus **build** only when the subject is a physical object, plus
-**seo** before you score, plus **motion** and **techniques** if anything moves,
+**seo** and **jury** before you deliver, plus **motion** and **techniques** if anything moves,
 plus **webgl** only if a canvas survives the decision tree, plus **grok-env**
 when the app runs in this workspace. `build.md` is not the default page.
 Studio, hospitality, counsel, and fashion follow their direction. Do not
@@ -125,11 +127,12 @@ Do these in order. Skipping the signature is how templates happen.
 8. **Build visible-first.** Words and the poster image render with no JS, no
    font CDN, and no canvas. No resting `opacity: 0` on the copy. Enhance
    after.
-9. **Score.** On the 1440 and 390 screenshots, point at the move at full size,
-   where it decides a fact, and the end frame. If you cannot, delete the page
-   and build the move. Do not patch the old one. Only then open
-   `references/quality.md`, then `references/seo.md`. Under 7, you are not
-   done. A fix list is not a score.
+9. **Jury.** You do not score this site. Start a new agent on
+   `references/jury.md` with the 1440 shot, the 390 shot, and the page source.
+   No defense, no hoped score. **DELETE** means throw the page out and build
+   another move. **REVISE** means do that list and call a new jury. **PASS**
+   with every lens at 7 or above is the only delivery. If you cannot start
+   that agent, you stop. You do not grade the page yourself.
 
 ## Signature
 
@@ -280,13 +283,8 @@ only downloads. Details, Unsplash/Pexels, and the generate/edit tools:
 
 ## Done
 
-Screenshot the page at 1440 and at 390. The words and the photograph are not
-on the same rectangle. On the phone, the subject and the one action are in
-the first screen. A giant number is required only when the move is the number,
-or when `build.md` is the shell. Point at the full move, the fact it decides,
-and the end frame on those shots. If you cannot, delete the page. Do not patch
-it into a pass. Then search for a resting `opacity: 0` that hides copy until
-a script. `@starting-style` and `[hidden]` do not count. Then open
-`references/rejects.md`. A match means you start again. A score under 7 in
-`references/quality.md` means you are not done. You do not grade your own fix
-list, and you do not give the score before the screenshot test.
+You are done when a jury that did not build the site returns **PASS**
+(`references/jury.md`): the move is on the 1440 and 390 screenshots, no row
+in `rejects.md`, and design, usability, creativity, and content are each at
+least 7. Quote those four numbers. Do not invent a higher one. Any other
+verdict means the site is not delivered.

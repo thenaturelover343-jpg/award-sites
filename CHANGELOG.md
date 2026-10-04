@@ -1,5 +1,10 @@
 # Changelog
 
+2026-10-04 — the builder no longer scores.
+
+- `references/jury.md`: a new agent scores the screenshots. PASS only when the move is visible and every lens is at least 7. DELETE throws the page out. REVISE is at most five changes, then a fresh jury.
+- The builder cannot deliver without that verdict, and cannot grade the page if the jury cannot be started.
+
 2026-10-04 — contradictory instructions removed.
 
 - A full-bleed photo is allowed only with the type off it. The sample no longer says the hero may be full-bleed with no condition.

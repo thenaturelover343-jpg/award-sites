@@ -1,6 +1,6 @@
 # award-sites
 
-A skill for any public site that should clear an award bar: landing, portfolio, restaurant, hotel, shop, campaign, agency. One structural move at three scales. Not a layout for one client. Not a dashboard.
+A skill for any public site that should clear an award bar: landing, portfolio, restaurant, hotel, shop, campaign, agency. One structural move at three scales. A different agent juries the result. The builder does not grade itself. Not a layout for one client. Not a dashboard.
 
 Pick a direction in `references/directions.md`. Open `references/build.md` only when the subject is a physical object. A full-screen photo with type on it fails `references/rejects.md`.
 
@@ -31,7 +31,7 @@ Openverse, commercial licenses, no API key. CC-BY rows must be credited.
 award-sites/
 ├── SKILL.md
 ├── CHANGELOG.md
-├── references/     # rejects, build, seo, scroll, directions, motion, QA
+├── references/     # rejects, jury, build, seo, scroll, directions, motion, QA
 ├── scripts/        # fetch-photos.mjs
 └── assets/grain.svg
 ```

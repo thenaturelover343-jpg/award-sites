@@ -71,6 +71,8 @@ unless the brief truly needs a scene. Ship the poster either way.
 
 ## After you build
 
-In the user-facing summary, name the direction and the signature in one
-sentence, and the brand assumptions you invented. Do not narrate package
-versions, ports, or this file.
+Do not tell the user the site is finished. Run `references/jury.md` first.
+In the user-facing summary, quote the jury's verdict and its four numbers,
+name the direction and the signature in one sentence, and the brand
+assumptions you invented. Do not narrate package versions, ports, or this
+file. Do not replace the jury's numbers with your own.

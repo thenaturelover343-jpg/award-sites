@@ -1,17 +1,13 @@
 # Quality
 
-Score before you stop. Awwwards' published weights: Design 40, Usability 30,
-Creativity 20, Content 10. Honorable Mention is 6.5. You will not submit
-anything; the weights tell you what to fix first. Usability and content are
-the cheap points beautiful drafts throw away.
+The builder does not fill in these numbers. The jury in `references/jury.md`
+does, from the screenshots, and the builder obeys the verdict.
 
-## Self-score
+Awwwards' published weights: Design 40, Usability 30, Creativity 20, Content 10.
+Honorable Mention is 6.5. Delivery requires each lens at 7 or above. Usability
+and content are the cheap points beautiful drafts throw away.
 
-Do not score until the signature check below is true on the screenshots.
-If it is not, there is no number. Delete the page and rebuild the move.
-Do not patch.
-
-Then give each lens a number from 1 to 10. Be harsh.
+## How the jury scores
 
 | Lens | 10 means | Usual failure |
 |---|---|---|
@@ -20,13 +16,11 @@ Then give each lens a number from 1 to 10. Be harsh.
 | Creativity | A stranger can point at the move with the words covered, and you can name a 2023–2026 Site of the Year or Month that shares it without inventing one | A hairline, a repeated caption, fade-up sections, a mesh gradient |
 | Content | Specific, true or clearly fictional, no banned phrases | Lorem, fake logos, "elevate your brand" |
 
-Weighted = `0.4 D + 0.3 U + 0.2 C + 0.1 Content`. Under 7: you are not done.
-If the signature check failed, do not use this formula to talk yourself into
-a pass. If the move is actually on the page and one lens is low, fix that
-lens. Adding WebGL does not lift a 5 in usability. A list of small fixes is
-not a score.
+Weighted = `0.4 D + 0.3 U + 0.2 C + 0.1 Content`. The builder does not compute
+this in order to pass. If the signature is not on the screenshot, there is no
+number. Adding WebGL does not lift a 5 in usability.
 
-## Not a jury
+## Does not raise a score
 
 These do not raise a score. If you treat them as one, the verdict is void.
 
@@ -137,7 +131,6 @@ GSAP and its plugins are free to ship. Do not add a license banner.
 
 ## Audit mode
 
-If the user asks to review rather than build: do not restyle yet. Walk the
-pre-ship list, give the four scores, name the signature (or say there is
-none), name the firewall row if one hits, and list at most five changes in
-score order. Then stop, unless they asked you to apply them.
+If the user asks to review rather than build: do not restyle yet. Run
+`references/jury.md` as a new agent. Do not score the page yourself. Then
+stop, unless they asked you to apply the verdict.
