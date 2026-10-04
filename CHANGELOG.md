@@ -1,5 +1,13 @@
 # Changelog
 
+2026-10-04 — a jury cannot reverse the previous one.
+
+- **VOID** when the frames are not one page, or the verdict would undo a done change, or it rejects the phone for not pinning. The builder reshoots the same shell.
+- **DELETE** only when the 1440 shot has no move, or the page matches `rejects.md`. A bad crop is REVISE.
+- 390 is the end frame of the same move (`build.md`). A white body with its wheels in frame is the object. A viewport crop must leave the digit readable.
+- The third round does not throw the page out because a lens is still under 7. It may not repeat a change that is already on the screen.
+- The builder sends only frames shot after the last edit.
+
 2026-10-04 — the builder no longer scores.
 
 - `references/jury.md`: a new agent scores the screenshots. PASS only when the move is visible and every lens is at least 7. DELETE throws the page out. REVISE is at most five changes, then a fresh jury.

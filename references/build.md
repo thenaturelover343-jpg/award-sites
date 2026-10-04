@@ -32,10 +32,16 @@ Desktop, from 1440px down to 800px:
 Phone, under 800px:
 
 - The photograph is on top, about `42svh`, and it scrolls away. Nothing is
-  placed on it.
+  placed on it. This is the **end frame** of the same window, not a second
+  move and not a pinned scroll.
 - The sentence, the number, and the action sit under it, still inside the
   first screen.
-- The station list follows. Do not pin the page. A thumb must be able to fling.
+- The station list follows, as words. Do not pin the page. A thumb must be
+  able to fling. Do not add a second and third photograph to stand in for
+  the scroll. One picture, the end of the window.
+
+A jury that rejects this phone for not being the desktop pin is void. The
+builder stays on this shell and reshoots.
 
 ```html
 <section class="inspect">
@@ -169,7 +175,11 @@ Use this instead of the inspection only when the number is the product. The digi
 }
 ```
 
-The digit stays readable with the animation off. Three scales are the digit at full size, the same digit where the sentence names the fact, and the digit reduced. Not a scrubbed `background-position`.
+The digit stays readable with the animation off, on 1440 and on 390. Cropped
+by the viewport means the figure meets an edge. It does not mean a digit is
+cut down to an arc. Three scales are the digit at full size, the same digit
+where the sentence names the fact, and the digit reduced. Not a scrubbed
+`background-position`.
 
 ## Drawing
 
@@ -208,7 +218,7 @@ Use this when you can cut the studio background away. Scroll reveals the photogr
 }
 ```
 
-`clip-path` repaints. Prefer the inspection, which moves a `transform`. Use the drawing only when the silhouette is the move. The rules in `scroll.md` still apply: `1ms`, timeline on the next line, `both`, and `@supports`. Do not animate `background-position` or `object-position`.
+`clip-path` repaints. Prefer the inspection, which moves a `transform`. Use the drawing only when the silhouette is the move. The opened frame and the phone end frame must show the object inside that silhouette, not the studio. If they show the studio, fix the path. Do not switch shells. The rules in `scroll.md` still apply: `1ms`, timeline on the next line, `both`, and `@supports`. Do not animate `background-position` or `object-position`. On the phone the end frame is the full silhouette, one picture, with the sentence and the action in the first screen.
 
 ## After the first screen
 

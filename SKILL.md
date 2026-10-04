@@ -127,10 +127,15 @@ Do these in order. Skipping the signature is how templates happen.
 8. **Build visible-first.** Words and the poster image render with no JS, no
    font CDN, and no canvas. No resting `opacity: 0` on the copy. Enhance
    after.
-9. **Jury.** You do not score this site. Start a new agent on
-   `references/jury.md` with the 1440 shot, the 390 shot, and the page source.
-   No defense, no hoped score. **DELETE** means throw the page out and build
-   another move. **REVISE** means do that list and call a new jury. **PASS**
+9. **Jury.** You do not score this site. Shoot the 1440 frame, the 390 frame,
+   and the mid and end of a scroll **after** the last edit. Pass only those
+   files. A leftover filename from an older page makes the verdict void.
+   Start a new agent on `references/jury.md` with those frames and the page
+   source. No defense, no hoped score. **VOID** means reshoot, same shell.
+   **DELETE** means the 1440 shot has no move: throw that page out and build
+   another shell. A bad crop is not a DELETE. **REVISE** means do that list
+   and call a new jury. Do not undo a change the jury can see is done, and
+   do not switch shells because the phone shows the end frame. **PASS**
    with every lens at 7 or above is the only delivery. If you cannot start
    that agent, you stop. You do not grade the page yourself.
 
