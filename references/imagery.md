@@ -31,7 +31,8 @@ shots looks cheaper than a $10k page with four crops of one session.
 4. **Grade.** The set should feel like one roll. If the tool list includes
    an image editor, grade every kept frame the same way (one temperature,
    one contrast, a little grain). If it does not, choose only the frames
-   that already match, and do the crop with CSS `object-position`. Do not
+   that already match, and do the crop with CSS `object-position`. That is a
+   still crop, not a scroll animation. Do not
    leave three warm photos and one blue flash photo because the search was
    good enough.
 5. **Place.** Hero poster is compressed and dimensioned (the box has a

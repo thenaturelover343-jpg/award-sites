@@ -1,5 +1,16 @@
 # Changelog
 
+2026-10-04 — contradictory instructions removed.
+
+- A full-bleed photo is allowed only with the type off it. The sample no longer says the hero may be full-bleed with no condition.
+- The signature step no longer sends every brief to inspection. That pair of lines stays in the one-object hard case.
+- "Make it award-winning" is not a direction. Use the choosing table.
+- The phone test no longer demands a giant number on every site.
+- The eight beats are not a quota. A multi-page brief stays multi-page.
+- No score before the screenshot shows the move. A failed check deletes the page. "Fix the lowest lens first" is gone.
+- Scroll samples use `transform`. Not `object-position`, not `background-position`. The menu sample no longer rests on `opacity: 0`.
+- The second color scheme is not pasted unless the brief asks.
+
 2026-10-04 — trailer leftovers out of the general skill.
 
 - Removed the "brochure this skill once shipped" story, the 24u / 16+ / 100% chips, hitch-to-axle stations, and "process fact or omit."

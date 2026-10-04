@@ -97,15 +97,17 @@ Trim the font's invisible box so the digit sits in the viewport, not in the line
 ## Enter and leave without a timer hack
 
 ```css
-.panel {
-  transition: opacity 600ms cubic-bezier(0.77, 0, 0.18, 1),
-    display 600ms allow-discrete;
-  @starting-style { opacity: 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .panel {
+    transition: transform 600ms cubic-bezier(0.77, 0, 0.18, 1),
+      display 600ms allow-discrete;
+    @starting-style { transform: translateY(0.5rem); }
+  }
 }
-.panel[hidden] { display: none; opacity: 0; }
+.panel[hidden] { display: none; }
 ```
 
-`@starting-style` and `transition-behavior: allow-discrete` are baseline in 2026. Use them for the menu. Do not wait a `setTimeout` to add a class.
+`@starting-style` and `transition-behavior: allow-discrete` are baseline in 2026. Use them for the menu. The resting panel is already visible. Do not set `opacity: 0` on it, and do not wait a `setTimeout` to add a class.
 
 ## Same-origin page changes
 

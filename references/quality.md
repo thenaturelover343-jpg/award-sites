@@ -7,7 +7,11 @@ the cheap points beautiful drafts throw away.
 
 ## Self-score
 
-Give each a number from 1 to 10. Be harsh.
+Do not score until the signature check below is true on the screenshots.
+If it is not, there is no number. Delete the page and rebuild the move.
+Do not patch.
+
+Then give each lens a number from 1 to 10. Be harsh.
 
 | Lens | 10 means | Usual failure |
 |---|---|---|
@@ -16,8 +20,11 @@ Give each a number from 1 to 10. Be harsh.
 | Creativity | A stranger can point at the move with the words covered, and you can name a 2023–2026 Site of the Year or Month that shares it without inventing one | A hairline, a repeated caption, fade-up sections, a mesh gradient |
 | Content | Specific, true or clearly fictional, no banned phrases | Lorem, fake logos, "elevate your brand" |
 
-Weighted = `0.4 D + 0.3 U + 0.2 C + 0.1 Content`. Under 7: do not stop. Fix
-the lowest lens first. Adding WebGL does not lift a 5 in usability.
+Weighted = `0.4 D + 0.3 U + 0.2 C + 0.1 Content`. Under 7: you are not done.
+If the signature check failed, do not use this formula to talk yourself into
+a pass. If the move is actually on the page and one lens is low, fix that
+lens. Adding WebGL does not lift a 5 in usability. A list of small fixes is
+not a score.
 
 ## Not a jury
 
@@ -35,16 +42,19 @@ Before the numbers, answer:
 
 1. One sentence: what does the visitor's eye do that a static crop would not?
 2. Where is that move at full size, where does it decide a fact, where is the end frame?
-3. If you delete those three and the page is unchanged, you have no signature. Score creativity ≤ 4.
+3. If you delete those three and the page is unchanged, you have no signature.
+   Stop. Do not assign creativity. Do not average the other three up. Delete
+   the page.
 
 ## Pre-ship
 
 - [ ] Signature sentence written. Three moments are one move, not a caption. None of the twelve firewall rows in `rejects.md`.
 - [ ] First viewport: name, sentence, image or signature, one action. No loader
       in the way. Readable with JS disabled (the words are in the HTML).
-- [ ] Search the stylesheet: no `opacity: 0` in the base rules. Entrances live
-      inside `prefers-reduced-motion: no-preference` or start in the same frame
-      as the tween.
+- [ ] Search the stylesheet: no resting `opacity: 0` that hides copy until a
+      script. `@starting-style` and `[hidden]` do not count. Entrances are a
+      transform inside `prefers-reduced-motion: no-preference`, or they start
+      in the same frame as the tween.
 - [ ] 1440 and 390: no horizontal scroll, no overlap, no type under the fixed nav.
 - [ ] One `h1`. Landmarks (`header`, `nav`, `main`, `footer`). Skip link works.
       Anchors point at real `id`s. `references/seo.md`.

@@ -48,8 +48,9 @@ Overrides of `design-ui` on marketing sites only:
 - Display type may be 64–180px. The product-UI scale is for app chrome.
 - One grain overlay and one material color-field are part of the system, not
   "gradient blobs", when a direction calls for them.
-- A hero may be full-bleed. Choreography may run 600–1400ms. Hovers stay
-  ≤ 240ms.
+- A photograph may be full-bleed. The type sits off it. Type, a price, and a
+  button on the photograph are the template, even if the picture is beautiful.
+  Choreography may run 600–1400ms. Hovers stay ≤ 240ms.
 - Still banned: emoji as icons, lorem, Inter/Roboto/Poppins as the default,
   purple-gradient SaaS, three unrelated effects, a custom cursor on touch,
   WebGL the user did not need.
@@ -91,9 +92,11 @@ Do these in order. Skipping the signature is how templates happen.
    city, prices), what you had to invent. If the user was vague, invent one
    coherent brand and say so in the summary — do not stall. No lorem later.
 2. **Signature.** One sentence, then three moments. See below. If the three
-   moments are the same caption, you do not have a signature. Write the two
-   lines from `references/rejects.md` (brochure version, move instead). If
-   they describe the same page, pick again.
+   moments are the same caption, you do not have a signature. Write two lines:
+   the brochure version, and the move from the direction you are about to pick.
+   If they describe the same page, pick again. Inspection, a drawing, and a
+   number are the move only for a physical object. Do not write them for a
+   restaurant, a studio, or a campaign.
 3. **Direction.** One primary from `references/directions.md`. Scroll film and
    Object cinema only when the brief's subject is a place or a thing you turn.
 4. **System.** Tokens first (`references/system.md`). Two families, one ink,
@@ -112,15 +115,21 @@ Do these in order. Skipping the signature is how templates happen.
      subject is a place.
 
    Do not invent a hero. Do not add a section just to hit a third moment.
-   Add a route only when a project needs its own URL. `build.md` is the
-   default for objects, not for every brief.
+   Keep the pages the brief already has. Do not collapse a multi-page site
+   into one landing unless the brief says one page. A new route is a real
+   destination (a project, a room, a product), not a thin copy of the home
+   page. `build.md` is the default for one physical object, not for every
+   brief and not for a whole site.
 7. **Motion.** Native scroll + CSS timelines, unless choreography needs
    GSAP. One smoother, never two. Reduced motion is the end frame, not a blank.
 8. **Build visible-first.** Words and the poster image render with no JS, no
-   font CDN, and no canvas. No `opacity: 0` in the base stylesheet. Enhance
+   font CDN, and no canvas. No resting `opacity: 0` on the copy. Enhance
    after.
-9. **Score.** `references/quality.md`, then `references/seo.md`. Fix any line
-   that would make a juror mark usability down. Under 7, you are not done.
+9. **Score.** On the 1440 and 390 screenshots, point at the move at full size,
+   where it decides a fact, and the end frame. If you cannot, delete the page
+   and build the move. Do not patch the old one. Only then open
+   `references/quality.md`, then `references/seo.md`. Under 7, you are not
+   done. A fix list is not a score.
 
 ## Signature
 
@@ -177,10 +186,13 @@ Do not average the other scores up. The same list is in `references/rejects.md`.
 
 ## Page (the $10k shape)
 
-When the subject is a physical object, `references/build.md` replaces this
-list for the first screen and the rest of a one-page site. Use the list below
-only to see what you may cut. Do not add a beat that `build.md` does not
-contain. Other briefs do not borrow the inspection just to fill this list.
+This list is not a quota. Filling all eight is how a brochure gets built.
+Use a beat only when it carries the same move. Cut the rest.
+
+When the subject is one physical object, `references/build.md` replaces this
+list. Other briefs do not borrow the inspection to fill these slots. A site
+with many pages repeats the move on each page. It does not dump every page
+into one scroll.
 
 1. Nav — mark, two to five links, one action. Keyboardable. Skip link first.
 2. Hero — name, one sentence, the signature, one action. Fully visible on load.
@@ -199,10 +211,10 @@ Every beat earns its place. Cut a section before you add an effect.
 
 Break one and the site is a template with expensive libraries.
 
-1. **Visible without JS.** No `opacity: 0` in the base stylesheet, and no
-   observer that reveals it. Entrance states are applied in the same frame the
-   tween starts, or by a CSS timeline that reduced-motion disables. Hero text
-   is painted immediately. Search the file for `opacity: 0` before you finish.
+1. **Visible without JS.** No resting `opacity: 0` that hides copy until a
+   script. `@starting-style` and `[hidden]` are not that. Entrance motion is
+   a transform, inside `prefers-reduced-motion: no-preference`, or it starts
+   in the same frame the tween starts. Hero text is painted immediately.
 2. **One structural move, three scales, not a repeated caption.** A hairline,
    a label, or a price chip used three times is not a signature. The move has
    to change how the object is read. See `references/rejects.md`.
@@ -268,10 +280,13 @@ only downloads. Details, Unsplash/Pexels, and the generate/edit tools:
 
 ## Done
 
-Screenshot the page at 1440 and at 390. The words and the photograph sit in
-different rectangles. The phone shows the photograph, the number, and the
-action without scrolling. Then search your file for `opacity: 0`, the banned
-patterns in `references/build.md`, and the firewall list above. Then open
+Screenshot the page at 1440 and at 390. The words and the photograph are not
+on the same rectangle. On the phone, the subject and the one action are in
+the first screen. A giant number is required only when the move is the number,
+or when `build.md` is the shell. Point at the full move, the fact it decides,
+and the end frame on those shots. If you cannot, delete the page. Do not patch
+it into a pass. Then search for a resting `opacity: 0` that hides copy until
+a script. `@starting-style` and `[hidden]` do not count. Then open
 `references/rejects.md`. A match means you start again. A score under 7 in
 `references/quality.md` means you are not done. You do not grade your own fix
-list.
+list, and you do not give the score before the screenshot test.

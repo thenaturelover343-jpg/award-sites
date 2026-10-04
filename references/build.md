@@ -10,10 +10,8 @@ A $10k site is not a higher score you give yourself. It is the direction's struc
 
 | The subject is | You build |
 |---|---|
-| A thing, a room, a dish, a vehicle, a tool | The inspection below |
-| A studio with several projects | An index. One row, one image. No tiles. |
-| A place they insisted you fly through | WebGL, and only then. Read `webgl.md`. |
-| Anything else | Stop. This file is the wrong one. Use `directions.md`. |
+| A thing, a room, a dish, a vehicle, a tool | One of the three shells below. Not all three. |
+| Anything else | Stop. Leave this file. Open `directions.md`. |
 
 If the subject is not an object, do not build the inspection.
 
@@ -140,11 +138,11 @@ Do not add ScrollTrigger to rescue a sticky you just broke.
 
 ## Number as frame
 
-Use this instead of the inspection only when the number is the product. The digit fills the viewport. The photograph moves inside the digit. The sentence and the action stay outside it.
+Use this instead of the inspection only when the number is the product. The digit fills the viewport. The photograph is visible only inside the digit (`background-clip: text` is the still). The sentence and the action stay outside it. Do not animate `background-position` or `object-position`. If the crop inside the digit must move, translate a wider image under a mask (`references/scroll.md`).
 
 ```html
 <section class="figure-frame">
-  <p class="figure-frame-num">40</p>
+  <p class="figure-frame-num">12</p>
   <div class="figure-frame-copy">
     <h1>One concrete sentence.</h1>
     <a href="#ask">The action</a>
@@ -165,26 +163,13 @@ Use this instead of the inspection only when the number is the product. The digi
   background-clip: text;
 }
 .figure-frame-copy { display: flex; justify-content: space-between; gap: 1rem; padding: 1.25rem; }
-@media (prefers-reduced-motion: no-preference) {
-  @supports (animation-timeline: scroll()) {
-    .figure-frame { min-height: 220vh; }
-    .figure-frame-num {
-      position: sticky;
-      top: 0;
-      animation: pan 1ms linear both;
-      animation-timeline: scroll(root block);
-      animation-range: 0% 80%;
-    }
-  }
-}
-@keyframes pan {
-  to { background-position: 80% 70%; }
-}
 @media (max-width: 799px) {
   .figure-frame { min-height: 100svh; }
-  .figure-frame-num { position: static; font-size: 42vw; animation: none; }
+  .figure-frame-num { font-size: 42vw; }
 }
 ```
+
+The digit stays readable with the animation off. Three scales are the digit at full size, the same digit where the sentence names the fact, and the digit reduced. Not a scrubbed `background-position`.
 
 ## Drawing
 
@@ -223,11 +208,11 @@ Use this when you can cut the studio background away. Scroll reveals the photogr
 }
 ```
 
-`background-position` and `clip-path` repaint. Prefer the inspection, which moves a `transform`. Use these two only when the digit or the silhouette is the move. The rules in `scroll.md` still apply: `1ms`, timeline on the next line, `both`, and `@supports`.
+`clip-path` repaints. Prefer the inspection, which moves a `transform`. Use the drawing only when the silhouette is the move. The rules in `scroll.md` still apply: `1ms`, timeline on the next line, `both`, and `@supports`. Do not animate `background-position` or `object-position`.
 
 ## After the first screen
 
-One page. In this order:
+This order is one object page. If the brief has more pages, repeat the move on each. Do not merge the site into this scroll to look finished.
 
 1. The inspection, the number, or the drawing. That scroll is the signature.
    Its three moments are the start of the window, the station the window is

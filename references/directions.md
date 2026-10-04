@@ -12,9 +12,9 @@ Write this and keep it:
 > Not on this site: …
 
 Scroll film and Object cinema are closed unless the brief's subject is a
-place you move through, or a thing you turn. A service, a clinic, a restaurant,
-or "make it award-winning" is not that brief. Build Quiet luxury or Editorial
-object instead.
+place you move through, or a thing you turn. A service, a clinic, or a
+restaurant is not that brief. "Make it award-winning" is not a direction.
+Use the choosing table at the bottom of this file.
 
 ## Quiet luxury
 

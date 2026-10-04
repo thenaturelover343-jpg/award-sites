@@ -70,9 +70,9 @@ and ignore the other two.
 
 ### 1. Inspection
 
-One viewport. The photograph stays. Scroll moves a window (`clip-path`,
-`object-position`, or a mask) from one end of the object to the other. Prefer a
-`transform` on a wider image (`references/scroll.md`). One column of type,
+One viewport. The photograph stays. Scroll moves a wider image with
+`transform` inside a fixed window (`references/scroll.md`). Not
+`object-position`, not `background-position`. One column of type,
 **outside** the photograph, changes the spec for that station. One pin on the
 page. Reduced motion: the same stations stacked, still one column, still no
 card on the picture. The still frame shows the whole object, not an empty crop.
@@ -100,6 +100,10 @@ Write two lines and keep them:
 
 > Brochure version: …
 > Move instead: inspection, registered drawing, or number as frame.
+
+These two lines are only for this hard case: one physical object, few photos.
+A restaurant, a studio, or a campaign does not write "inspection" here. Their
+move is the one in `directions.md`.
 
 If those two lines describe the same page, you picked nothing. Then build
 `build.md`. Do not sketch a third layout.

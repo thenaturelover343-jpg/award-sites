@@ -116,7 +116,9 @@ Flip ink, ground, muted, and line in that one media-query block.
 | Scroll film / Object cinema | Dark unless the scene is daylight |
 
 Do not ship both schemes to look thorough. A script that sets the theme after
-paint flashes. Use the media query, or ship one scheme.
+paint flashes. Ship one scheme. Paste the block below only when the brief
+asks for a second scheme, or the photographs cannot live on the first ground.
+If the brief does not ask, do not include this query.
 
 ```css
 @media (prefers-color-scheme: light) {
