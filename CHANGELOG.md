@@ -1,5 +1,10 @@
 # Changelog
 
+2026-10-04 — trailer leftovers out of the general skill.
+
+- Removed the "brochure this skill once shipped" story, the 24u / 16+ / 100% chips, hitch-to-axle stations, and "process fact or omit."
+- Dutch empty-phrase ban stays. It is the same list as the English one, not a client.
+
 2026-10-04 — the skill is for every award site, not one client.
 
 - Opening routes by subject: hospitality, archive, object, place. Inspection is not the first choice.

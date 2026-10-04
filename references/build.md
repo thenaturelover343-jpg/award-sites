@@ -2,7 +2,7 @@
 
 This file is one shell: a physical object. A restaurant, a hotel, a studio, a campaign, or an agency does not use it. Go back to `directions.md`.
 
-Do not invent a hero. The brochure this skill once shipped was an invented hero: a full-screen photo, type on top of it, and three price cards. That page is forbidden for every brief, not only for products.
+Do not invent a hero. Type, a price, and a button do not sit on the photograph.
 
 A $10k site is not a higher score you give yourself. It is the direction's structure, filled with that client's real words and real pictures.
 
@@ -129,7 +129,7 @@ Phone, under 800px:
 
 The scan is the move. Start, station, and end are how far the window has
 travelled along that one object. They are not three new pictures in a grid.
-Name the stations after the object in front of you, not after a previous client.
+Name the stations after the object in front of you.
 
 If `animation-timeline` is missing, the visitor still sees the sentence, the
 number, the action, and the whole photograph. Do not hide them until a script

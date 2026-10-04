@@ -12,7 +12,7 @@ Write this and keep it:
 > Not on this site: …
 
 Scroll film and Object cinema are closed unless the brief's subject is a
-place you move through, or a thing you turn. A rental, a clinic, a restaurant,
+place you move through, or a thing you turn. A service, a clinic, a restaurant,
 or "make it award-winning" is not that brief. Build Quiet luxury or Editorial
 object instead.
 
@@ -29,7 +29,7 @@ Hospitality, fashion, counsel, architecture practices that sell calm.
 - Phone: the photo is the top half, about 42svh, nothing on it. The name and
   the action sit in the remaining half of the first screen. Do not shrink the
   desktop headline until it wraps into a paragraph. No pin.
-- Never: gold gradients, a dark hero plus a blob, stat chips (24u, 16+, 100%),
+- Never: gold gradients, a dark hero plus a blob, a row of stat chips,
   serif plus the word "elegance", stock handshakes, marble tiled as a background.
 
 ## Editorial object

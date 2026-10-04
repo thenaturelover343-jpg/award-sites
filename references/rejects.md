@@ -4,11 +4,6 @@ Read this before `directions.md`. If the page you are about to ship matches a
 row here, stop. Design is at most 5 and creativity at most 4. Do not average
 the other scores up to a pass. A finished fix list is not a pardon.
 
-This file exists because a skill-following build shipped a brochure and a
-reviewer scored it 8.1. The skill had asked for "one signature, three times"
-and "a measured spec". The build did both with a hairline and three price
-chips, and called that an Awwwards site. That reading is wrong.
-
 Three moments means the same **move** at three sizes. It does not mean the
 same caption three times.
 
@@ -43,7 +38,7 @@ Any one of these is an automatic fail. Same list as `SKILL.md`.
 | White studio shots in bordered boxes on a paper page | A lookbook grid |
 | Nav, headline, dimension line, price, and button all fighting one picture | An overlay, not a layout |
 | You can rebuild it in a day from Tailwind, the client's photos, and a serif | Not a $10k site |
-| Stat chips ("24u", "16+", "100%") above a row of reasons | A local-service template |
+| A row of stat chips above a list of reasons | A template |
 
 Cover the logo and the words. If what remains is "a nice photo with type on it",
 creativity stays at 4.
@@ -76,7 +71,7 @@ and ignore the other two.
 ### 1. Inspection
 
 One viewport. The photograph stays. Scroll moves a window (`clip-path`,
-`object-position`, or a mask) from hitch to body to unit to axle. Prefer a
+`object-position`, or a mask) from one end of the object to the other. Prefer a
 `transform` on a wider image (`references/scroll.md`). One column of type,
 **outside** the photograph, changes the spec for that station. One pin on the
 page. Reduced motion: the same stations stacked, still one column, still no
@@ -84,7 +79,7 @@ card on the picture. The still frame shows the whole object, not an empty crop.
 
 ### 2. Registered drawing
 
-Draw the object once as SVG (box, unit, wheels, hitch). Clip the photo to
+Draw the object once as SVG. Clip the photo to
 that path so the studio white disappears and the object is a shape on the
 page. The dimensions are the drawing's own lines, set large enough to be the
 layout (a number at poster scale, not an 11px caption). The nav mark is that
@@ -93,7 +88,7 @@ under a photo strip.
 
 ### 3. Number as frame
 
-One figure — the length or the day price — is cropped by the viewport. The
+One figure — a measure or a price that is really on the page — is cropped by the viewport. The
 photograph is visible only inside the counter. One sentence and one action
 sit in the margin, not in a panel on the picture. The footer may repeat the
 figure only as the same clip at a smaller size, not as a second wordmark under

@@ -78,8 +78,7 @@ oplossingen").
 
 Do not invent awards, press logos, client names, star ratings, or testimonials
 from real people. A made-up brand can have a point of view; it cannot have a
-fake quote from a real company. If social proof is needed, use a process fact
-or omit the section.
+fake quote from a real company.
 
 ## Loader, cursor, sound
 
