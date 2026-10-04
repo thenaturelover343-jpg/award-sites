@@ -121,7 +121,7 @@ Every beat earns its place. Cut a section before you add an effect.
 
 Break one and the site is a template with expensive libraries.
 
-1. **Visible without JS.** No `opacity: 0` parked in CSS waiting for a
+1. **Visible without JS.** No `opacity: 0` parked in CSS waiting for an
    observer. Entrance states are applied in the same frame the tween starts,
    or by a CSS timeline that reduced-motion disables. Hero text is painted
    immediately.
