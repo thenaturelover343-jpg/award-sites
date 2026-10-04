@@ -25,7 +25,7 @@ phone, the JSON-LD has no `telephone`.
 One human sentence. Place, offer, constraint. Not a stack of keywords.
 
 ```html
-<meta name="description" content="Koelaanhangwagens te huur vanaf €40 per dag excl. btw. Levering in provincie Antwerpen, afhalen in Tielen." />
+<meta name="description" content="One sentence a person would say: what it is, where, and the constraint. Not a keyword list." />
 ```
 
 In this workspace, do **not** author `og:*` or `twitter:card` in the root
@@ -49,12 +49,10 @@ runs on every route. Pick the type the page actually is.
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Koelaanhangwagenverhuur",
-  "areaServed": "Provincie Antwerpen",
+  "name": "The name already printed on the page",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Tielen",
-    "addressRegion": "Antwerpen",
+    "addressLocality": "The city already printed on the page",
     "addressCountry": "BE"
   }
 }
@@ -72,8 +70,8 @@ with a made-up number.
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "3 m³ Compact",
-  "description": "Geremde koelaanhangwagen, L300 × B150 × H70 cm, 220V.",
+  "name": "The product name already printed on the page",
+  "description": "The one fact already printed on the page.",
   "offers": {
     "@type": "Offer",
     "price": "40",
@@ -88,8 +86,7 @@ business. Do not add `aggregateRating` without real reviews.
 
 ## Images
 
-Alt says what is in the frame. "Witte koelaanhangwagen van opzij, koelunit
-rechts, achterdeuren links." Decorative duplicates of the hero get `alt=""`.
+Alt says what is in the frame. "Side view of the chair, oak seat, black legs." Decorative duplicates of the hero get `alt=""`.
 The hero does not.
 
 ## What not to add

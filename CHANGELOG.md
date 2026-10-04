@@ -1,5 +1,12 @@
 # Changelog
 
+2026-10-04 — the skill is for every award site, not one client.
+
+- Opening routes by subject: hospitality, archive, object, place. Inspection is not the first choice.
+- `build.md` says so at the top, and no longer defaults to inspection when unsure.
+- Examples in `seo.md` and the inspection sample no longer name a previous client.
+- Pass on the first screen is the direction's move. A crop or an index can pass. The brochure still fails.
+
 2026-10-04 — structure routing. Pins unchanged.
 
 - Structure step routes objects to `build.md`, a studio index to Archive,

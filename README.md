@@ -1,6 +1,8 @@
 # award-sites
 
-Build the inspection in `references/build.md`. The words sit beside the photograph, and scroll moves the photograph inside a fixed window. Do not invent a hero. A full-screen photo with type on it is the page this skill already failed.
+A skill for any public site that should clear an award bar: landing, portfolio, restaurant, hotel, shop, campaign, agency. One structural move at three scales. Not a layout for one client. Not a dashboard.
+
+Pick a direction in `references/directions.md`. Open `references/build.md` only when the subject is a physical object. A full-screen photo with type on it fails `references/rejects.md`.
 
 ## Install (Grok app builder)
 

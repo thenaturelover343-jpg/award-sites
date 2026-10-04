@@ -111,8 +111,7 @@ If those two lines describe the same page, you picked nothing. Then build
 
 ## Pass vs fail (first screen)
 
-- **Pass.** One sticky photograph, copy in a side column, scroll moves the
-  crop. Three moments are the start, the station, and the end frame of that
-  same window.
-- **Fail.** Full-bleed photo, a serif on top of it, three price chips. That
-  is a brochure. Creativity stays at 4 or below.
+The pass is the direction's move, not one client's layout.
+
+- **Pass.** One move, visible with the words covered. Copy and photograph are not piled on the same rectangle. A phone shows the subject and the action without hunting. A restaurant passes with a crop. A studio passes with one index row. An object may pass as one sticky photograph, copy in a side column, scroll moving that same crop: start, station, end frame.
+- **Fail.** Full-bleed photo, a serif on top of it, three price chips. That is a brochure. Creativity stays at 4 or below.

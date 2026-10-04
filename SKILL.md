@@ -5,8 +5,9 @@ description: >
   directed photography, motion that means something, usability on a phone.
   Use for landings, portfolios, brand/campaign, restaurant, hotel, agency, shop
   — including Dutch asks ("website bouwen", "premium", "maak het duurder").
-  Not for dashboards. Read rejects.md and build.md first; if the page matches
-  rejects.md the build has failed.
+  Not for dashboards. Read rejects.md and directions.md first. Open build.md
+  only for a physical object. If the page matches rejects.md the build has
+  failed.
 metadata:
   short-description: "One move, three scales. Rejects first."
   research-through: "2026-10-04"
@@ -15,13 +16,16 @@ user-invocable: false
 
 # Award sites
 
+This skill builds any public site that should clear an award bar: a landing, a portfolio, a restaurant, a hotel, a shop, a campaign, an agency. It is not a layout for one client. It is not a dashboard.
+
 Build one move. That move changes how the visitor reads the subject. It shows at three scales. The page still works when you turn the animation off.
 
-Choose one:
+The move comes from the direction, not from a fixed hero:
 
-- Scroll across the object, from one end to the other.
-- Clip the photograph to a drawing of the object.
-- Let one number frame the photograph.
+- Restaurant, hotel, counsel, fashion → a crop or a temperature shift. Quiet luxury.
+- Studio or portfolio with several projects → one index row, one image. Archive.
+- A physical product, dish, tool, or vehicle → inspection, a drawing, or a number as the frame. Only then open `references/build.md`.
+- A place they insisted you fly through → a camera path. Scroll film.
 
 Do not ship a full-screen photo with a serif headline, a price, and a button. Do not ship three crops with captions. Do not call a thin line a signature because you repeated it.
 
@@ -70,13 +74,13 @@ Read only what the chosen direction needs.
 | Jury score, a11y, performance, pins | `references/quality.md` |
 | This TanStack sandbox | `references/grok-env.md` |
 
-On a build, always open **rejects, build, techniques, directions, system,
-imagery, interaction, quality**, plus **seo** before you score, plus **motion**
-if anything moves, plus **webgl** only if a canvas survives the decision tree,
-plus **grok-env** when the app runs in this workspace. `build.md` is the page
-for a physical object. Studio, hospitality, counsel, and fashion follow the
-Structure step, not inspection. Do not invent a hero. A page that matches
-`rejects.md` is not done.
+On a build, always open **rejects, directions, system, imagery, interaction,
+quality**, plus **build** only when the subject is a physical object, plus
+**seo** before you score, plus **motion** and **techniques** if anything moves,
+plus **webgl** only if a canvas survives the decision tree, plus **grok-env**
+when the app runs in this workspace. `build.md` is not the default page.
+Studio, hospitality, counsel, and fashion follow their direction. Do not
+invent a hero. A page that matches `rejects.md` is not done.
 
 ## Loop
 

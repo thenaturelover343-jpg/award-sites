@@ -1,11 +1,10 @@
 # Build
 
-Follow this file. Do not invent a hero. The brochure this skill once shipped
-was an invented hero: a full-screen photo, type on top of it, and three price
-cards. That page is forbidden.
+This file is one shell: a physical object. A restaurant, a hotel, a studio, a campaign, or an agency does not use it. Go back to `directions.md`.
 
-A $10k site is not a higher score you give yourself. It is this structure,
-filled with the client's real words and real pictures.
+Do not invent a hero. The brochure this skill once shipped was an invented hero: a full-screen photo, type on top of it, and three price cards. That page is forbidden for every brief, not only for products.
+
+A $10k site is not a higher score you give yourself. It is the direction's structure, filled with that client's real words and real pictures.
 
 ## Pick the shell
 
@@ -14,8 +13,9 @@ filled with the client's real words and real pictures.
 | A thing, a room, a dish, a vehicle, a tool | The inspection below |
 | A studio with several projects | An index. One row, one image. No tiles. |
 | A place they insisted you fly through | WebGL, and only then. Read `webgl.md`. |
+| Anything else | Stop. This file is the wrong one. Use `directions.md`. |
 
-If you are unsure, build the inspection.
+If the subject is not an object, do not build the inspection.
 
 ## Inspection
 
@@ -43,12 +43,12 @@ Phone, under 800px:
 <section class="inspect">
   <div class="inspect-copy">
     <h1>One concrete sentence.</h1>
-    <p class="inspect-num">€40</p>
+    <p class="inspect-num">12</p>
     <a href="#ask">The action</a>
     <ol>
-      <li><span>Hitch</span></li>
-      <li><span>Body</span></li>
-      <li><span>Axle</span></li>
+      <li><span>Start</span></li>
+      <li><span>Station</span></li>
+      <li><span>End</span></li>
     </ol>
   </div>
   <div class="inspect-stage">
@@ -127,8 +127,9 @@ Phone, under 800px:
 }
 ```
 
-The scan is the move. Hitch, body, and axle are how far the window has
-travelled. They are not three new pictures in a grid.
+The scan is the move. Start, station, and end are how far the window has
+travelled along that one object. They are not three new pictures in a grid.
+Name the stations after the object in front of you, not after a previous client.
 
 If `animation-timeline` is missing, the visitor still sees the sentence, the
 number, the action, and the whole photograph. Do not hide them until a script
