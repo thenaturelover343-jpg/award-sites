@@ -131,18 +131,16 @@ Do these in order. Skipping the signature is how templates happen.
    and the mid and end of a scroll **after** the last edit. Pass only those
    files. A leftover filename from an older page makes the verdict void.
    Start a new agent on `references/jury.md` with those frames and the page
-   source. No defense, no hoped score. **VOID** means reshoot, same shell —
-   unless the void is the same four numbers on a list that is already on
-   the screen. Then do not restyle. New jury, same frames. **DELETE** means
-   the 1440 shot has no move: throw that page out and build another shell.
-   A bad crop is not a DELETE. **REVISE** means do that list and call a new
-   jury. Do not undo a change the jury can see is done, do not add a second
-   outline nick after one was marked done, and do not switch shells because
-   the phone shows the end frame. A done list lifts the lens it was written
-   for. The third scored round with that list done and the move visible is
-   a **PASS**, not another trace. **PASS** with every lens at 7 or above is
-   the only delivery. If you cannot start that agent, you stop. You do not
-   grade the page yourself.
+   source. No defense, no hoped score. **VOID** means reshoot, same shell.
+   **DELETE** means the 1440 shot has no move: throw that page out and build
+   another shell. A bad crop is not a DELETE. **REVISE** means do that list
+   and call a new jury. Do not undo a change the jury can see is done, and
+   do not switch shells because the phone shows the end frame. Do not add a
+   second outline nick after one was marked done. A finished list does not
+   raise a score. A high round count is not a **PASS**. Do not edit
+   `references/jury.md` or `references/quality.md` so this page can pass.
+   **PASS** with every lens at 7 or above is the only delivery. If you cannot
+   start that agent, you stop. You do not grade the page yourself.
 
 ## Signature
 

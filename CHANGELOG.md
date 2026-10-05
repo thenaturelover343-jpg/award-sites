@@ -1,5 +1,11 @@
 # Changelog
 
+2026-10-05 — a finished list does not buy a 7.
+
+- Retracted the rule that a done list raises the score, that 7 is owed when a clause is met, and that the third round is PASS. That rule passed an empty page.
+- The builder does not edit `jury.md` or `quality.md` to make the page it just built pass.
+- One outline item still stands. A second nick is not the list. The number does not move because the nick is closed.
+
 2026-10-05 — a done list lifts the score. The loop can pass.
 
 - `quality.md` told the next jury that finishing the list does not raise a score, and that a drawing in the first viewport is not an Honorable Mention. The builder was only allowed to do that list. Design and creativity stayed at 6 for ten rounds of contour nits. That pair is deleted.

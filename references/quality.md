@@ -22,27 +22,25 @@ number. Adding WebGL does not lift a 5 in usability.
 
 ## What 7 means
 
-7 is a floor. If the screenshot meets the line, the lens is at least 7.
-A 6 must name the failed clause. These are not a failed clause: a finished
-list that is visible, a nick already marked done, a ground around a drawing,
-the phone showing the end frame, the absence of WebGL, or no named award
-site (that withholds an 8, not a 7).
+A 7 is the page on the screenshot, not a finished list and not a round count.
+If the first screen is an empty field, the type is too small to read, or the
+object is not what a stranger sees first, the lens stays under 7.
 
-| Lens | 7 means | A 6 must be this, and nothing softer |
+| Lens | 7 means | Stays under 7 |
 |---|---|---|
-| Design | One system. Type a stranger can read. The object is nameable. The line does not contradict the object. | Type they cannot read, two systems, or the object is not the object. Not a closed nick. |
+| Design | One system. Type a stranger can read without zooming. The object owns the frame. Nothing you would delete. | An empty field, type on the hardware, two systems, a debug outline. |
 | Usability | The 390 frame shows the end of the move, the action is in the first screen, no overflow, reduced motion is that end frame. | The action is missing, the page scrolls sideways, or a pin traps the phone. |
-| Creativity | Hero, mid, and end are three states of one move a stranger can point at with the words covered. | The three frames are one caption, or the move is not on the 1440 shot. |
+| Creativity | Hero, mid, and end are three states of one move a stranger can point at with the words covered. | The three frames are one caption, or the move is not on the 1440 shot. A mask is not a 7 by itself. |
 | Content | The facts on the screen are specific. No banned phrase. No invented phone, email, VAT, or rating. | Lorem, a fake logo, or a claim the page does not show. |
 
 ## Does not raise a score
 
 These do not raise a score. If you treat them as one, the verdict is void.
 
-- A finished fix list that is **not** on the screenshot. A list that is on the screenshot raises the lens it was written for by at least one point. The same four numbers after a done list are void.
+- A finished fix list. Doing what the last note asked is not a better site.
 - A repeated caption, hairline, or label. A signature is a move you could not get from `object-fit` plus absolute text. If a one-day Tailwind brochure already has it, creativity is at most 4 and design at most 6.
-- A static sticker: a drawn mark that does not change from hero to mid to end, three image files, and a button. A drawing, an inspection, or a number that changes what the frame shows is the move. Do not cap that at 6 for being a drawing.
-- Naming a signature in a sentence without a real Awwwards site (Site of the Year or Site of the Month, 2023–2026) that shares that specific move. No named site, no score of 8. A 7 does not need the name.
+- A drawn mark, three image files, and a button in the first viewport. That is the pre-ship list, not an Honorable Mention. A drawing that does not change from hero to mid to end is a sticker.
+- Naming a signature in a sentence without a real Awwwards site (Site of the Year or Site of the Month, 2023–2026) that shares that specific move. No named site, no score of 8.
 - Three moments that are the same price chip. That fails `rejects.md` even if you wrote the sentence.
 
 ## Signature check
